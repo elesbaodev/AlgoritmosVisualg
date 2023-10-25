@@ -3,6 +3,7 @@ Var
    jg: vetor[1..3,1..3] de Inteiro
    x,y: Inteiro
 
+**Não está totalmente completo esse código**
 Procedimento  Func( )
       Se ( jg[x,y] = jg[1,1]) entao
               LimpaTela
@@ -39,7 +40,7 @@ Inicio
       Escreval("+---+---+---+")
       Escreval("|",jg[3,1],"|",jg[3,2],"|",jg[3,3],"|")
       Escreval("+---+---+---+")
-      Escreval("Vai jogar [X] em qual posi��o?")
+      Escreval("Vai jogar [X] em qual posição?")
       Leia(jg[x,y])
       
       Se ( jg[x,y] = jg[1,1]) entao
@@ -149,7 +150,7 @@ Inicio
       Escreval("+---+---+---+")
       Escreval("|",jg[3,1],"|",jg[3,2],"|",jg[3,3],"|")
       Escreval("+---+---+---+")
-      Escreval("Vai jogar [O] em qual posi��o?")
+      Escreval("Vai jogar [O] em qual posição?")
       Leia(jg[x,y])
                    Se ( jg[x,y] = jg[1,1]) entao
               LimpaTela
@@ -249,16 +250,11 @@ Inicio
                 FimSe
 
 
-
-
-
-           
-         
-         
-
-      
-
-      
+-----------------------------------------------------------
+**NÃO ESTÁ TOTALMENTE COMPLETO ESSE CÓDIGO!**
+**NÃO ESTÁ TOTALMENTE COMPLETO ESSE CÓDIGO!**
+**NÃO ESTÁ TOTALMENTE COMPLETO ESSE CÓDIGO!**
+-----------------------------------------------------------
 
 
 
