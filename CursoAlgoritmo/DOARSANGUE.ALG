@@ -4,22 +4,23 @@ Var
    NO,RP: Caractere
    Idade,Peso,D: Inteiro
 
-Funcao Doar(ID,PS : Inteiro) : Inteiro
+//ComeÃ§o da funÃ§Ã£o//
+Funcao Doar(ID,PS : Inteiro) : Inteiro 
 
 inicio
       Se (ID >= 16) entao
-         EscrevaL(" Parabêns! ",NO," você atigiu a idade mínima para doar sangue.")
+         EscrevaL(" ParabÃªns!, vocÃª atigiu a idade mÃ­nima para doar sangue.")
          
        senao
-            EscrevaL(NO, " Infelizmente você ainda não está apto para doar sangue.")
+            EscrevaL(" Infelizmente vocÃª ainda nÃ£o estÃ¡ apto para doar sangue.")
 
         FimSe
              Se(PS >= 50) entao
-                   EscrevaL(" Você está no peso ideal para doar!.")
+                   EscrevaL(" VocÃª estÃ¡ no peso ideal para doar!.")
 
 
             senao
-                 EscrevaL(NO," Você precisa engorda mais um pouco para doar.")
+                 EscrevaL(" VocÃª precisa engorda mais um pouco para doar.")
 
          FimSe
          
@@ -29,13 +30,14 @@ inicio
 
 
 FimFuncao
+//Fim da funÃ§Ã£o//
 
 
-
+//InÃ­cio para realizar pergunta ao usuÃ¡rio//
 Inicio
       Escreva("Qual o seu nome? ")
       Leia(NO)
-      Escreva(NO," Você tem quantos anos? ")
+      Escreva(NO," VocÃª tem quantos anos? ")
       Leia(Idade)
       Escreva("Qual o seu peso(KG) ? ")
       Leia(Peso)
@@ -46,3 +48,4 @@ Inicio
 
 
 Fimalgoritmo
+//Fim do cÃ³digo//
