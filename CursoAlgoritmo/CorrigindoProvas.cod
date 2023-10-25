@@ -1,0 +1,156 @@
+Algoritmo "CorrigindoProvas"
+
+Var
+   qt: vetor[1..5] de Caractere
+   c: Inteiro
+   a: Inteiro
+   al: vetor[1..3] de Caractere
+   r: vetor[1..5] de Caractere
+   rr: vetor[1..5] de Caractere
+   r3: vetor[1..5] de Caractere
+   cc,c2,c3: Inteiro
+   notas: Caractere
+   S,SS,SSS: Real
+inicio
+
+
+
+       Escreval("--------------------------------")
+      Escreval(" PASSO 1 - Cadastro de Gabarito ")
+      Escreval("--------------------------------")
+      Para c <- 1 ate 5 faca
+      Escreva(" Questão ",c,": ")
+      Leia(qt[c])
+
+    FimPara
+          Para a <- 1 ate 1 faca
+        Escreval("-----------------------")
+        Escreval(" ALUNO ",a)
+        Escreval("-----------------------")
+        Escreva("Nome: ")
+        Leia(al[a])
+        EscrevaL("RESPOSTAS DADAS ")
+        Para cc <- 1 ate 5  faca
+        Escreva("Questão ",cc, ": ")
+        Leia(r[cc])
+      FimPara
+      FimPara
+        Para a <- 2 ate 2 faca
+        Escreval("-----------------------")
+        Escreval(" ALUNO ",a)
+        Escreval("-----------------------")
+        Escreva("Nome: ")
+        Leia(al[a])
+        EscrevaL("RESPOSTAS DADAS ")
+        Para c2 <- 1 ate 5  faca
+        Escreva("Questão ",c2, ": ")
+        Leia(rr[c2])
+      FimPara
+      FimPara
+      Para a <- 3 ate 3 faca
+        Escreval("-----------------------")
+        Escreval(" ALUNO ",a)
+        Escreval("-----------------------")
+        Escreva("Nome: ")
+        Leia(al[a])
+        EscrevaL("RESPOSTAS DADAS ")
+        Para c3 <- 1 ate 5  faca
+        Escreva("Questão ",c3, ": ")
+        Leia(r3[c3])
+      FimPara
+      FimPara
+      Se (r[1] = "a") entao
+     S <- S + 2
+    senao
+         S <- S
+    FimSe
+         Se(r[2] = "b") entao
+
+          S <- S  + 2
+            senao
+                 S <- S
+            FimSe
+                 Se(r[3] = "c") entao
+                      S <- S + 2
+                 senao
+                      S <- S
+               FimSe
+                    Se(r[4] = "d") entao
+                        S <- S  + 2
+                      senao
+                           S <- S
+                      FimSe
+                           Se(r[5] = "a") entao
+                              S <- S + 2
+                            senao
+                                 S <- S
+                            FimSe
+                                 Se(rr[1] = "a") entao
+                                   SS <- SS + 2
+                                 senao
+                                      SS <- SS
+                                   FimSe
+                                        Se(rr[2] = "b") entao
+                                   SS <- SS + 2
+                                 senao
+                                      SS <- SS
+                                  FimSe
+                                       Se(rr[3] = "c") entao
+                                   SS <- SS + 2
+                                 senao
+                                      SS <- SS
+                                    FimSe
+                                         Se(rr[4] = "d") entao
+                                   SS <- SS + 2
+                                 senao
+                                      SS <- SS
+                                   FimSe
+                                        Se(rr[5] = "a") entao
+                                   SS <- SS + 2
+                                 senao
+                                      SS <- SS
+                                   FimSe
+                                        Se (r3[1] = "a") entao
+                                           SSS <- SSS + 2
+                                         senao
+                                              SSS <- SSS
+                                         FimSe
+                                              Se (r3[2] = "b")entao
+                                                 SSS <- SSS + 2
+                                           senao
+                                                SSS <- SSS
+                                            FimSe
+                                                 Se (r3[3] = "c") entao
+                                                     SSS <- SSS + 2
+                                              senao
+                                                   SSS <- SSS
+                                              FimSe
+                                                   Se (r3[4] = "d") entao
+                                                       SSS <- SSS + 2
+                                                senao
+                                                     SSS <- SSS
+                                                 FimSe
+                                                      Se (r3[5] = "a") entao
+                                                          SSS <- SSS + 2
+                                                   senao
+                                                        SSS <- SSS
+                                                     FimSe
+                                                    LimpaTela
+                                                 Escreval("---------------------")
+                                                   Escreval(" NOTAS FINAIS ")
+                                                    Escreval("---------------------")
+                                                     Escreval(al[1]:15, S)
+                                                     Escreval(al[2]:15, SS)
+                                                     Escreval(al[3]:15, SSS)
+
+
+
+
+
+
+
+
+
+
+
+Fimalgoritmo

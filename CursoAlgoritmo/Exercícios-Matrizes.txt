@@ -1,0 +1,7 @@
+Exercício 1:
+Dessecando Matrizes: Crie uma matriz 4x4 (matriz de quarta ordem) ira ter um menu onde o úsuario irá escolher o que deseja exibir:
+[1] Mostrar a Matriz
+[2] Diagonal Principal(os números que sempre terminam com o seu começo ex: 1,1; 2,2; 3,3 etc...)
+[3] Triângulo Superior ( parte que sobra de cima.)
+[4] Triângulo Inferior (parte que sobra de baixo.)
+[5] Sair 

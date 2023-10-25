@@ -1,0 +1,28 @@
+Algoritmo "Conversão"
+
+Var
+   RS: Real
+   VG: Caractere
+
+Procedimento Conversao(var R: Real)
+var S: Real
+Inicio
+        Escreval("Deseja viajar para: Nova York [N], Orlando [O], Miami [M]")
+          Leia(VG)
+     S <- (3.45 * R)
+      Se(S = 5.300) entao
+
+          Escreva("Você tem ",S, " Doláres e poderá viajar para ", VG)
+        senao
+             Escreva("Você tem ", S, " Doláres e não poderá viajar para ",VG)
+
+          FimSe
+      
+
+FimProcedimento
+
+inicio
+      EscrevaL("Você tem quantos reais na carteira? ")
+      Leia(RS)
+      Conversao(RS)
+Fimalgoritmo

@@ -1,0 +1,39 @@
+Exercício 1:
+Torneio de Futebol; Faça um programa que faça a combinações de times sugeridos como ex: (São Paulo, Corithians, Fluminense.)
+nesse programa feito com váriaveis compostas homegênias unidemensionais (vetores) faça as combinações de jogos ex: São Paulo x Corinthias, São Paulo x Fluminense, Corinthias x São Paulo etc...
+(e claro não poderá a ver o mesmo time joga com o mesmo time ex: São Paulo x São Paulo.
+-------------------------------------------------------------------------------------------
+CÓDIGO:
+Algoritmo "TorneioFutebol"
+
+Var
+   times: vetor[1..3] de Caractere
+   t: Inteiro
+   i,a: Caractere
+Inicio
+      Escreval("-------------------")
+      EscrevaL("CAMPEONATO FUTEBOL")
+      Escreval("-------------------")
+      Para t <- 1 ate 3 faca
+           Escreva("Nome do", t,".o time: ")
+            Leia(times[t])
+
+      FimPara
+             Escreval("------------------")
+            Escreval("TABELA DE PARTIDAS")
+            Escreval("------------------")
+            Se (times[1] = times[2])e (times[1] = times[3]) entao
+             Escreva("Não Havera jogo.")
+
+           senao
+            Escreval(times[1]:15," [ ] x [ ] ", times[2]:15)
+            Escreval(times[1]:15, " [ ] x [ ] ", times[3]:15)
+            Escreval(times[2]:15, " [ ] x [ ] ", times[1]:15)
+            Escreval(times[2]:15, " [ ] x [ ] ", times[3]:15)
+            Escreval(times[3]:15, " [ ] x [ ] ", times[1]:15)
+            Escreval(times[3]:15, " [ ] x [ ] ", times[2]:15)
+     FimSe
+
+
+
+Fimalgoritmo
